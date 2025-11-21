@@ -1,0 +1,19 @@
+[
+  { "empresa": "Agroindustria La Finca", "total_postulaciones": 146 },
+  { "empresa": "Agropecuaria San Jorge", "total_postulaciones": 176 },
+  { "empresa": "Café El Bosque", "total_postulaciones": 194 },
+  { "empresa": "Café La Esperanza", "total_postulaciones": 134 },
+  { "empresa": "Café Las Nubes", "total_postulaciones": 164 },
+  { "empresa": "Distribuciones del Sur", "total_postulaciones": 152 },
+  { "empresa": "Distribuidora Atlántico", "total_postulaciones": 182 },
+  { "empresa": "Editorial NicaBooks", "total_postulaciones": 122 },
+  { "empresa": "Farmacia Popular", "total_postulaciones": 110 },
+  { "empresa": "Ferretería El Clavo", "total_postulaciones": 140 },
+  { "empresa": "Ferretería El Martillo", "total_postulaciones": 170 },
+  { "empresa": "Ferretería La Unión", "total_postulaciones": 200 },
+  { "empresa": "Hospital San Lucas", "total_postulaciones": 188 },
+  { "empresa": "Hospital Vida Nueva", "total_postulaciones": 158 },
+  { "empresa": "Maderas del Sur", "total_postulaciones": 116 },
+  { "empresa": "Repuestos El Éxito", "total_postulaciones": 128 },
+  { "empresa": "Textiles Masaya", "total_postulaciones": 104 }
+]

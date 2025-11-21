@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/light_gray"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingTop="?attr/actionBarSize">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profilenh"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        app:shapeAppearanceOverlay="@style/CircleImage"
+        android:padding="2dp"
+        android:background="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NextHire"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/oxford_blue"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nexthire@email.com"
+        android:textSize="14sp"
+        android:textColor="@color/oxford_blue"/>
+
+</LinearLayout>

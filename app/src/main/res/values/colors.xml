@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="oxford_blue">#192338</color>
+    <color name="space_blue">#1E2E4F</color>
+    <color name="yin_blue">#31487A</color>
+    <color name="jordy_blue">#8FB3E2</color>
+    <color name="lavander_blue">#D9E1F1</color>
+    <color name="light_blue">#E1E8F6</color>
+    <color name="light_gray">#EFEFF8</color>
+</resources>

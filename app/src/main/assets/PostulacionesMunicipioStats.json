@@ -1,0 +1,14 @@
+[
+  { "nombreMunicipio": "Achuapa", "totalPostulaciones": 5 },
+  { "nombreMunicipio": "Acoyapa", "totalPostulaciones": 6 },
+  { "nombreMunicipio": "Boaco", "totalPostulaciones": 12 },
+  { "nombreMunicipio": "Camoapa", "totalPostulaciones": 6 },
+  { "nombreMunicipio": "Catarina", "totalPostulaciones": 9 },
+  { "nombreMunicipio": "Chichigalpa", "totalPostulaciones": 10 },
+  { "nombreMunicipio": "Ciudad Sandino", "totalPostulaciones": 2 },
+  { "nombreMunicipio": "Jinotepe", "totalPostulaciones": 3 },
+  { "nombreMunicipio": "Matagalpa", "totalPostulaciones": 7 },
+  { "nombreMunicipio": "Tipitapa", "totalPostulaciones": 8 },
+  { "nombreMunicipio": "Villa Carlos Fonseca", "totalPostulaciones": 4 },
+  { "nombreMunicipio": "Total general", "totalPostulaciones": 65 }
+]

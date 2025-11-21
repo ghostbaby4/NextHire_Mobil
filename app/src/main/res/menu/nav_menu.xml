@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_departament"
+            android:icon="@drawable/icon_deparment"
+            android:title="Departamento"/>
+        <item
+            android:id="@+id/nav_profesion"
+            android:icon="@drawable/icon_profesion"
+            android:title="Profesion"/>
+        <item
+            android:id="@+id/nav_cargo"
+            android:icon="@drawable/icon_cargo"
+            android:title="Cargo"/>
+        <item
+            android:id="@+id/nav_habilidades"
+            android:icon="@drawable/icon_skills"
+            android:title="Habilidades"/>
+        <item
+            android:id="@+id/nav_apiscreen"
+            android:icon="@drawable/icon_skills"
+            android:title="Api Screen" />
+    </group>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTituloGraficoBarra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Postulaciones total por empresa"
+            android:textAlignment="center"
+            android:textColor="@color/oxford_blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartPostulaciones"
+            android:layout_width="1200dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvTotalGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total general: 0"
+            android:textAlignment="center"
+            android:textColor="@color/oxford_blue"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/tvTituloGraficoMunicipios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Postulaciones totales por municipio"
+            android:textAlignment="center"
+            android:textColor="@color/oxford_blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartMunicipios"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/tvTituloGraficoPie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Postulaciones por empresa y estado"
+            android:textAlignment="center"
+            android:textColor="@color/oxford_blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChartEstados"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
